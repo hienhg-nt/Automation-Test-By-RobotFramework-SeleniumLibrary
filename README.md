@@ -7,6 +7,7 @@ This repository contains a Robot Framework test suite for an e-commerce demo sit
 - Git (optional)
 - Chrome / Firefox browsers (for cross-browser runs)
 - Install Python dependencies:
+- Java (optional - to run allure report)
 
 ```powershell
 python -m venv venv
