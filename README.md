@@ -54,6 +54,10 @@ allure generate results/allure-results -o results/allure-report --clean
 allure open results/allure-report
 ```
 
+Allure graph example:
+
+<img width="1862" height="772" alt="image" src="https://github.com/user-attachments/assets/1bfe1aef-7f46-443f-8c4d-b205e5292571" />
+
 **Test data**
 - JSON input for checkout tests: `testdata/checkout.json`
 - Excel data for invalid register cases: `testdata/user.xlsx` (used via DataDriver)
@@ -80,8 +84,4 @@ allure open results/allure-report
 - If Allure CLI isn't available, install it separately (e.g., via package manager) so `allure generate` and `allure open` work.
 - For browser compatibility, make sure the appropriate WebDriver and browser versions are installed and accessible.
 
-If you want, I can:
-- Add a sample `.env.example` file
-- Commit the README and a `.env.example`
-- Add a small script to create/activate the virtual environment automatically
 
