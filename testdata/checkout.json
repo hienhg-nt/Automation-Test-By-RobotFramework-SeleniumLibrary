@@ -1,0 +1,25 @@
+{
+    "products": [{
+        "name": "Fahrenheit 451 by Ray Bradbury"
+    },
+    {
+        "name": "First Prize Pies"
+    },
+    {
+        "name": "Pride and Prejudice"
+    },
+    {
+        "name": "Nike SB Zoom Stefan Janoski \"Medium Mint\""
+    }],
+
+    "billing_address": {
+        "country": "Vietnam",
+        "state": "Hà Nội",
+        "city": "Hà Nội",
+        "address1": "Số 1 Đại Cồ Việt",
+        "zip": "100000",
+        "phone": "0123456789",
+        "shipping_method": "Next Day Air___Shipping.FixedByWeightByTotal",
+        "payment_method": "Payments.CheckMoneyOrder"
+    }
+}

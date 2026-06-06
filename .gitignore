@@ -1,0 +1,11 @@
+.env
+_pycache_
+*.pyc
+results/*
+results/screenshots/.gitkeep
+.pabotsuitenames
+venv/
+
+
+
+

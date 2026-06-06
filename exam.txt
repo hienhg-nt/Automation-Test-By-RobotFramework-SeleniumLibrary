@@ -1,0 +1,50 @@
+Final #1: Form Testing & Validation (Level: Intermediate)
+🔧 Mô tả:
+Website: https://demo.nopcommerce.com/register?returnUrl=%2F
+Tạo một bài test kiểm tra trang đăng ký tài khoản, gồm:
+
+Điền form với dữ liệu hợp lệ và nhấn Submit 
+Kiểm tra xem có thông báo “Đăng ký thành công” không
+Test với các dữ liệu không hợp lệ (email sai, password thiếu ký tự đặc biệt...)
+Kiểm tra xem hệ thống có trả lỗi đúng không
+
+📌 Kỹ năng áp dụng:
+
+
+--------------------------------------------------------------------------
+🧪 Final #2: E2E Flow – Mua hàng trên website (Level: Advanced)
+🔧 Mô tả:
+Tự động hóa quy trình mua hàng đơn giản trên một trang e-commerce (dùng site demo như https://automationexercise.com/ hoặc https://demo.nopcommerce.com/)
+
+Login bằng tài khoản test
+Chọn sản phẩm, thêm vào giỏ
+Kiểm tra giỏ hàng
+Thực hiện thanh toán (mô phỏng)
+Xác nhận đơn hàng được tạo thành công
+
+📌 Kỹ năng áp dụng:
+
+Multi-step navigation
+Locator chiến lược (XPATH, CSS)
+Keyword reuse (dùng Resource file chứa custom keyword)
+Screenshots khi lỗi (Capture Page Screenshot)
+
+
+--------------------------------------------------------------------------
+🧪 Final #3: Cross-browser & Retry Testing with Reporting (Level: Pro Max)
+🔧 Mô tả:
+Tạo một test suite chạy cùng lúc trên 2 browser (Chrome và Firefox), có retry nếu fail.(Generate báo cáo đẹp mắt-optional)
+Yêu cầu:
+
+Chạy 1 test đơn giản: check login > logout
+Dùng retry khi test fail (Retry Failed)
+Dùng Robot Framework Browser Library hoặc SeleniumLibrary
+Báo cáo HTML + Screenshot khi test fail(optional)
+
+ 
+📌 Kỹ năng áp dụng:
+
+Test setup/teardown
+Use --variable BROWSER:chrome hoặc tạo cấu hình trong .robot
+Parallel test bằng Pabot
+Report tools: Allure hoặc Robot HTML report(optional)

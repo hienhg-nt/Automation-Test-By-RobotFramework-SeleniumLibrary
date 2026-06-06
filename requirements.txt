@@ -1,0 +1,10 @@
+robotframework
+robotframework-seleniumlibrary
+robotframework-pabot
+robotframework-datadriver[XLS]
+robotframework-retryfailed
+python-dotenv
+faker
+allure-robotframework
+
+
