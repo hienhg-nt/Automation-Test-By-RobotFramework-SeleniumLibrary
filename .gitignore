@@ -1,8 +1,7 @@
 .env
 _pycache_
 *.pyc
-results/*
-results/screenshots/.gitkeep
+results
 .pabotsuitenames
 venv/
 
